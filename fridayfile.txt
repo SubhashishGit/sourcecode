@@ -1,1 +1,4 @@
-Sample File
+chage home dir 
+Tomcat 
+CLI 
+user managment 
