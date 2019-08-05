@@ -1,0 +1,14 @@
+SSH Client : ip-172-31-39-24
+SSH Remote Host : ip-172-31-46-135 
+
+Create the ssh key 
+ip-172-31-39-24  ssh-keygen -t rsa
+
+Copy the key using this command          
+ip-172-31-39-24  cat .ssh/id_rsa.pub
+
+Paste to remote server 
+ip-172-31-46-135 vi .ssh/authorized_keys
+
+Test with ssh command 
+ip-172-31-39-24  ssh ip-172-31-46-135
