@@ -8,6 +8,8 @@ git status -s
 git commit -m 'Initial commit'
 git log 
 git log --summary
+git log --oneline
+git log --graph
 
 git pull https://github.com/UNoorul/DevOps master
 git status 
