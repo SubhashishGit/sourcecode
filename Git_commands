@@ -6,7 +6,8 @@ git status -s
 git add .
 git status -s
 git commit -m 'Initial commit'
-git log
+git log 
+git log --summary
 
 git pull https://github.com/UNoorul/DevOps master
 git status 
@@ -21,3 +22,4 @@ git remote remove payroll
 git remote
 
 git branch feature2
+git config --global --edit 
